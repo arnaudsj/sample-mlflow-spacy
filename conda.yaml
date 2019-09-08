@@ -1,0 +1,11 @@
+name: sample-mlflow-spacy
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - mlflow
+    - spacy
+    - spacy_langdetect
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz#egg=en_core_web_sm==2.1.0

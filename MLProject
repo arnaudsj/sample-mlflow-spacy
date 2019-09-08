@@ -1,0 +1,6 @@
+name: sample-mlflow-spacy
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "python train_predict.py"
